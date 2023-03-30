@@ -4,13 +4,25 @@ Consumer smart contract that reads from [Orakl Network](https://www.orakl.networ
 
 > Warning: This repository and smart contract are meant to be for deployment on [`Baobab`](https://docs.klaytn.foundation/misc/faq#what-is-cypress-what-is-baobab).
 
-Internally, the scripts access following smart contracts:
+Currently, you can access the following data feeds from Orakl Network on Baobab.
 
-* `AggregatorProxy` ([0x1697c78D7F29eDeaf5B12DA6316d771E56A34c1e](https://baobab.scope.klaytn.com/account/0x1697c78D7F29eDeaf5B12DA6316d771E56A34c1e))
-* `Aggregator` ([0x15C0b3Ea93Ed4dE0a1F93F4AE130AEFd8F2E8CCB](https://baobab.scope.klaytn.com/account/0x15C0b3Ea93Ed4dE0a1F93F4AE130AEFd8F2E8CCB))
+| Data Feed  | `Aggregator`                                                                                        | `AggregatorProxy`                                                                                                                |
+|------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| BTC-USDT   | [0x640E...9e96](https://baobab.scope.klaytn.com/account/0x640Ed61e261C545D7439bDBb27e1674a6F589e96) | [0x6492009c469373972710744eD34725D96D8c07B3](https://baobab.scope.klaytn.com/account/0x6492009c469373972710744eD34725D96D8c07B3) |
+| ETH-USDT   | [0x9C22...856b](https://baobab.scope.klaytn.com/account/0x9C2248d7EafB3D9e9D615E52965bD387a12c856b) | [0xFD91E50218a5451a88D7C83Ed7b555F20aa216f2](https://baobab.scope.klaytn.com/account/0xFD91E50218a5451a88D7C83Ed7b555F20aa216f2) |
+| KLAY-USDT  | [0x8013...d87C](https://baobab.scope.klaytn.com/account/0x80139B55D6539E08890b93448B1A93cd014Ed87C) | [0x1BFf2A4B141a18532A141Ec079FbAb615bba907f](https://baobab.scope.klaytn.com/account/0x1BFf2A4B141a18532A141Ec079FbAb615bba907f) |
+| MATIC-USDT | [0x99E9...87Fb](https://baobab.scope.klaytn.com/account/0x99E9E1a78498575E78F46675b54847767C5787Fb) | [0xCe0BBfA49C0b82B9768DFB8d1f1efC907a496842](https://baobab.scope.klaytn.com/account/0xCe0BBfA49C0b82B9768DFB8d1f1efC907a496842) |
+| SOL-USDT   | [0x56Bb...3008](https://baobab.scope.klaytn.com/account/0x56BbC261dE7529a2D9F89B75734A86ac5f9e3008) | [0x900350a321c12Ad5388DE96087FdCF90f7ec319B](https://baobab.scope.klaytn.com/account/0x900350a321c12Ad5388DE96087FdCF90f7ec319B) |
+| USDC-USDT  | [0x08e2...B795](https://baobab.scope.klaytn.com/account/0x08e2425CE1fa5f8EB006d3898C48C5d3de44B795) | [0xFd5fb8a27ADd2Faa62Ef3c5f0EA78AEAbE1E07A3](https://baobab.scope.klaytn.com/account/0xFd5fb8a27ADd2Faa62Ef3c5f0EA78AEAbE1E07A3) |
+| DAI-USDT   | [0xe17D...0A2F](https://baobab.scope.klaytn.com/account/0xe17D821E9A8A8736B9AEA8C2DE1f3A4934ac0A2F) | [0xC0B2da601400c9dd49D8eF29E47a16a47932331e](https://baobab.scope.klaytn.com/account/0xC0B2da601400c9dd49D8eF29E47a16a47932331e) |
+| DOT-USDT   | [0x4a11...1894](https://baobab.scope.klaytn.com/account/0x4a11035D511E8094E483761Db1b9c834d55b1894) | [0xeD2c791eae84a9845f7832110c9Cd7E1D9670235](https://baobab.scope.klaytn.com/account/0xeD2c791eae84a9845f7832110c9Cd7E1D9670235) |
+| BNB-USDT   | [0x4D92...520d](https://baobab.scope.klaytn.com/account/0x4D92F10A23E28AB11d2d39325B9db0Fd0504520d) | [0x694b6591bA06Ea48b9A07dB78B93cCdF5d144f38](https://baobab.scope.klaytn.com/account/0x694b6591bA06Ea48b9A07dB78B93cCdF5d144f38) |
+| TRX-USDT   | [0x5036...f4Cf](https://baobab.scope.klaytn.com/account/0x50365C346BAd261a29ADd3Be7bA18B6c49E4f4Cf) | [0x9ED2D63D6af73b416E0a47B56899ddE8435d89a6](https://baobab.scope.klaytn.com/account/0x9ED2D63D6af73b416E0a47B56899ddE8435d89a6) |
+| BUSD-USDT  | [0xA3ca...5D0c](https://baobab.scope.klaytn.com/account/0xA3ca19bAE3dC93521Ff0a9A7DC78713e8bB55D0c) | [0x88DaE047193444aba53B316f40961528c326080d](https://baobab.scope.klaytn.com/account/0x88DaE047193444aba53B316f40961528c326080d) |
+
 
 `AggregatorProxy` acts as a gateway to access the latest aggregated values submitted by a set of trusted parties to `Aggregator` smart contract.
-`AggregatorProxy` in this project is connected to `Aggregator` that provides a price feed for [`ETH/USD` pair](https://github.com/Bisonai/orakl/blob/master/core/adapter/eth-usd.adapter.json).
+`AggregatorProxy` in this project is connected to `Aggregator` that provides a price feed for [`BTC/USDT` pair](https://bisonai.github.io/orakl-config/adapter/btc-usdt.adapter.json).
 
 If you want to access different data feeds, you can change the aggregator proxy address (`aggregatorProxy`) inside of `hardhat.config.ts` under `namedAccounts` property.
 
