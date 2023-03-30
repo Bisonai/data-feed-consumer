@@ -22,7 +22,7 @@ Currently, you can access the following data feeds from Orakl Network on Baobab.
 
 
 `AggregatorProxy` acts as a gateway to access the latest aggregated values submitted by a set of trusted parties to `Aggregator` smart contract.
-`AggregatorProxy` in this project is connected to `Aggregator` that provides a price feed for [`BTC/USD` pair](https://bisonai.github.io/orakl-config/adapter/btc-usdt.adapter.json).
+`AggregatorProxy` in this project is connected to `Aggregator` that provides a price feed for [`BTC/USDT` pair](https://bisonai.github.io/orakl-config/adapter/btc-usdt.adapter.json).
 
 If you want to access different data feeds, you can change the aggregator proxy address (`aggregatorProxy`) inside of `hardhat.config.ts` under `namedAccounts` property.
 
