@@ -64,6 +64,7 @@ const config: HardhatUserConfig = {
       // baobab: '0x694b6591bA06Ea48b9A07dB78B93cCdF5d144f38' // BNB-USDT
       // baobab: '0x9ED2D63D6af73b416E0a47B56899ddE8435d89a6' // TRX-USDT
       // baobab: '0x88DaE047193444aba53B316f40961528c326080d' // BUSD-USDT
+      // baobab: '0xe9656248A3148f4cfed909fE4c79B386c9b2d595' // MNR-KRW
     }
   }
 }
