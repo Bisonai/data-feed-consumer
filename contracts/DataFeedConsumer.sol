@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.16;
 
-import {IAggregator} from "@bisonai/orakl-contracts/src/v0.1/interfaces/IAggregator.sol";
+import { IAggregator } from "@bisonai/orakl-contracts/src/v0.1/interfaces/IAggregator.sol";
 
 contract DataFeedConsumer {
     IAggregator internal dataFeed;
-    int256 public sData;
-    uint80 public sRoundId;
+    int256 public answer;
+    uint80 public roundId;
 
     constructor(address aggregatorProxy) {
         dataFeed = IAggregator(aggregatorProxy);
@@ -14,14 +14,15 @@ contract DataFeedConsumer {
 
     function getLatestData() public {
         (
-            uint80 roundId,
-            int256 data
-            , /*uint startedAt*/
-            , /*uint timeStamp*/
-            , /*uint80 answeredInRound*/
+            uint80 roundId_,
+            int256 answer_
+            , /* uint startedAt */
+            , /* uint updatedAt */
+            , /* uint80 answeredInRound */
         ) = dataFeed.latestRoundData();
-        sData = data;
-        sRoundId = roundId;
+
+        answer = answer_;
+        roundId = roundId_;
     }
 
     function decimals() public view returns (uint8) {

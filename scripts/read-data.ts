@@ -6,9 +6,9 @@ async function main() {
 
   await (await userContract.getLatestData()).wait()
 
-  const data = await userContract.sData()
-  const roundId = await userContract.sRoundId()
-  console.log(`data ${data.toString()}`)
+  const answer = await userContract.answer()
+  const roundId = await userContract.roundId()
+  console.log(`answer ${answer.toString()}`)
   console.log(`roundId ${roundId.toString()}`)
 }
 
