@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.16;
 
-import {AggregatorInterface} from "@bisonai/orakl-contracts/src/v0.1/interfaces/AggregatorInterface.sol";
+import {IAggregator} from "@bisonai/orakl-contracts/src/v0.1/interfaces/IAggregator.sol";
 
 contract DataFeedConsumer {
-    AggregatorInterface internal dataFeed;
+    IAggregator internal dataFeed;
     int256 public sData;
     uint80 public sRoundId;
 
     constructor(address aggregatorProxy) {
-        dataFeed = AggregatorInterface(aggregatorProxy);
+        dataFeed = IAggregator(aggregatorProxy);
     }
 
     function getLatestData() public {
