@@ -9,7 +9,7 @@ Currently, you can access the following data feeds from Orakl Network.
 ## Cypress
 
 | Data Feed  | `Aggregator`                                                                                | `AggregatorProxy`                                                                           |
-|------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| ---------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | BTC-USDT   | [0x21df...e040](https://klaytnfinder.io/account/0x21df0fDC25cd276FAec7a081159788a2Ec52e040) | [0xc051...77AC](https://klaytnfinder.io/account/0xc0516486DD0837a8Dd6E502F9134Ff3c421377AC) |
 | ETH-USDT   | [0x0ee3...0CAE](https://klaytnfinder.io/account/0x0ee317740EA515D02587393AA32CbB6686110CAE) | [0x37C6...64c3](https://klaytnfinder.io/account/0x37C637922D6F5F62e067588A75E9d59c26cd64c3) |
 | KLAY-USDT  | [0x955b...d41d](https://klaytnfinder.io/account/0x955bd135ABBc0eB0D022556602112A9Ec456d41d) | [0x33D6...ACE0](https://klaytnfinder.io/account/0x33D6ee12D4ADE244100F09b280e159659fe0ACE0) |
@@ -22,11 +22,21 @@ Currently, you can access the following data feeds from Orakl Network.
 | TRX-USDT   | [0x035A...0d86](https://klaytnfinder.io/account/0x035A27A2797106Dc68606cA054dA5429750F0d86) | [0x28A6...6b4B](https://klaytnfinder.io/account/0x28A69574604E01c86C116Fe4C6EdE28CDbe66b4B) |
 | BUSD-USDT  | [0x0655...CEe5](https://klaytnfinder.io/account/0x0655f5196Bd589632a1fd7f15d73382537ACCEe5) | [0x31e4...5B60](https://klaytnfinder.io/account/0x31e438B3d2b838a30A0c02460cd1E6B7a6ED5B60) |
 | MNR-KRW    | [0xfccB...3a98](https://klaytnfinder.io/account/0xfccB3925817e0dCFEE28343769Bbe203D8443a98) | [0x61be...B4C5](https://klaytnfinder.io/account/0x61be615807fC5306E1C691D290a422aF7995B4C5) |
+| ADA-USDT   | [0x2355...29Ab](https://klaytnfinder.io/account/0x235587EA94b2fe15FfFf0577303E5F0Cf13C29Ab) | [0x04a7...05C0](https://klaytnfinder.io/account/0x04a77b347d1e0FD6FA9af328aB0232F3F2Be05C0) |
+| ATOM-USDT  | [0x153A...c13F](https://klaytnfinder.io/account/0x153A604Ce0d3Fee619fb9A1F484d885001D1c13F) | [0x1eD8...d150](https://klaytnfinder.io/account/0x1eD814571AB8FA61F546dDb92125d22dc7dAd150) |
+| AVAX-USDT  | [0x700d...81Df](https://klaytnfinder.io/account/0x700d467Ff6727D99409cBE13e1D3b24A4F8981Df) | [0x5E64...63A5](https://klaytnfinder.io/account/0x5E64449c9088Be970608856Fb817dAc364bf63A5) |
+| DOGE-USDT  | [0x92d6...be91](https://klaytnfinder.io/account/0x92d6e3893B8853184D167780c7eB0D784F0ebe91) | [0x0dcb...b644](https://klaytnfinder.io/account/0x0dcb00FBDd314dbd524927D769cd2da0092Ab644) |
+| FTM-USDT   | [0xFf36...a066](https://klaytnfinder.io/account/0xFf369500111F0CE541A67D84bCB326604099a066) | [0x6be0...15f4](https://klaytnfinder.io/account/0x6be0DA4Fc7b9ffB1254EA118ee2a8Fa018DB15f4) |
+| LTC-USDT   | [0x570D...44C1](https://klaytnfinder.io/account/0x570D233652001fEaE9Ee1D859D51BdA9221444C1) | [0x3114...E575](https://klaytnfinder.io/account/0x31144fAac15241aB56434740ea8C32F626DDE575) |
+| PAXG-USDT  | [0x384C...E313](https://klaytnfinder.io/account/0x384C4A7ee7B8Ef8D6a46E2f262581632EF06E313) | [0x7E41...de73](https://klaytnfinder.io/account/0x7E418fE88A22Dbb71bb81979A0d54EF4e8Fade73) |
+| SHIB-USDT  | [0x528b...Af0F](https://klaytnfinder.io/account/0x528bb9cc2dCfDd98F712A60B54120fa4F63aAf0F) | [0xBb05...236E](https://klaytnfinder.io/account/0xBb05a3cbe50cF725be9302539bFA502F78D4236E) |
+| UNI-USDT   | [0x58B4...d6BC](https://klaytnfinder.io/account/0x58B40391BC5bF647EB8Aa2CEF426950fC644d6BC) | [0x40F0...3EAe](https://klaytnfinder.io/account/0x40F0Ef1d120526712cf3AF77CF14348b19b83EAe) |
+| XRP-USDT   | [0xe2e2...C8E4](https://klaytnfinder.io/account/0xe2e2D78eF5ec2158AFf05472C8C65fdB994AC8E4) | [0xc736...8d3D](https://klaytnfinder.io/account/0xc73665899A0b82f10D40Ea072C7A3a6F3a1c8d3D) |
 
 ## Baobab
 
 | Data Feed  | `Aggregator`                                                                                       | `AggregatorProxy`                                                                                  |
-|------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| ---------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | BTC-USDT   | [0xE747...5e07](https://baobab.klaytnfinder.io/account/0xE747418f2fe0F5794c5105f718b59b283E1B5e07) | [0x4b06...dFa4](https://baobab.klaytnfinder.io/account/0x4b0687ce6eC3Fe6c019467c744D0C563643BdFa4) |
 | ETH-USDT   | [0xf1AF...e9bd](https://baobab.klaytnfinder.io/account/0xf1AF997ffA9b43CcA41078d74C3F897DB998e9bd) | [0xAEc4...C28E](https://baobab.klaytnfinder.io/account/0xAEc43Fc8D4684b6A6577c3B18A1c1c6d3D55C28E) |
 | KLAY-USDT  | [0xf0d6...95bA](https://baobab.klaytnfinder.io/account/0xf0d6Ccdd18B8A7108b901af872021109C27095bA) | [0xC874...72E1](https://baobab.klaytnfinder.io/account/0xC874f389A3F49C5331490145f77c4eFE202d72E1) |
@@ -39,6 +49,16 @@ Currently, you can access the following data feeds from Orakl Network.
 | TRX-USDT   | [0xb4de...c60D](https://baobab.klaytnfinder.io/account/0xb4de9C81eaA329E1E7161E9a235D795E29eec60D) | [0x37c7...2d5f](https://baobab.klaytnfinder.io/account/0x37c7Aac954e721eaBA28c58BeF496529Cde32d5f) |
 | BUSD-USDT  | [0xc820...63ed](https://baobab.klaytnfinder.io/account/0xc820F6E9ab1A9321d22720A0986088A9298563ed) | [0x6727...b647](https://baobab.klaytnfinder.io/account/0x6727E828CCa9b5cB639e740d5A275Cd7CdB0b647) |
 | MNR-KRW    | [0x22dd...59c9](https://baobab.klaytnfinder.io/account/0x22ddDb9749cB5941DdEc5fD50B12CfDdB8E259c9) | [0x6DEb...2dee](https://baobab.klaytnfinder.io/account/0x6DEbE43FD00D3Dcc93D8695a3031fC8887242dee) |
+| ADA-USDT   | [0x70cD...C9b8](https://baobab.klaytnfinder.io/account/0x70cDE6bE67486017C52215Ad5d6740ce8EaBC9b8) | [0xB9C1...1568](https://baobab.klaytnfinder.io/account/0xB9C1839A40cED59Fb9e55Eb52a3B8B7E62aF1568) |
+| ATOM-USDT  | [0xD846...a0b0](https://baobab.klaytnfinder.io/account/0xD84659b5e6d7123e21ee80f13685D733a9a9a0b0) | [0x8867...8D8b](https://baobab.klaytnfinder.io/account/0x886703ebE4E18645B708b3fC9f528d2a9aed8D8b) |
+| AVAX-USDT  | [0xf467...1529](https://baobab.klaytnfinder.io/account/0xf467B6cF8ED8c3E49c2ED5154b0Bf471c6911529) | [0xeae7...a580](https://baobab.klaytnfinder.io/account/0xeae732C571aEdB41d58Db5390D96691E6B54a580) |
+| DOGE-USDT  | [0x98F4...2CF3](https://baobab.klaytnfinder.io/account/0x98F4BC9fE125c725423deda5418681aB7c8F2CF3) | [0x464f...B72a](https://baobab.klaytnfinder.io/account/0x464fBa38a41526fc61Ca6Ed2C9cD7B38d822B72a) |
+| FTM-USDT   | [0x88E3...F764](https://baobab.klaytnfinder.io/account/0x88E3CD567754A0f5068aa4053F9887e97539F764) | [0x271c...2D21](https://baobab.klaytnfinder.io/account/0x271ce3EB7cb9124aEaa26D18E2c448b10f2C2D21) |
+| LTC-USDT   | [0x151A...deef](https://baobab.klaytnfinder.io/account/0x151A407169e1B594fb26F002A4c3c9fc41f1deef) | [0x597a...aE3f](https://baobab.klaytnfinder.io/account/0x597a5ab68296d4dEC1296d8A96eFb3FC8b2BaE3f) |
+| PAXG-USDT  | [0xbD07...BF5D](https://baobab.klaytnfinder.io/account/0xbD07592c082A40e25a78Fd6a3d9C075B2d36BF5D) | [0x555E...C723](https://baobab.klaytnfinder.io/account/0x555E072996d0335Ec63B448ddD507CB99379C723) |
+| SHIB-USDT  | [0xA317...20a5](https://baobab.klaytnfinder.io/account/0xA317038414a275365ED4a085B786E83E761d20a5) | [0x51Ec...8AD1](https://baobab.klaytnfinder.io/account/0x51Ec645B728c6882D362677c90A6D51bb0998AD1) |
+| UNI-USDT   | [0x82aC...F66B](https://baobab.klaytnfinder.io/account/0x82aC2966dD5843e718D0EaeC7108bb4778eeF66B) | [0xa7A9...232d](https://baobab.klaytnfinder.io/account/0xa7A93c5eaabD1c458522F00a53897D5f32Da232d) |
+| XRP-USDT   | [0x92dD...f18c](https://baobab.klaytnfinder.io/account/0x92dD2d62513bC4811666C4EF27248E902e41f18c) | [0xDcb0...fCD0](https://baobab.klaytnfinder.io/account/0xDcb088788722198aaED3F4F7a396558eC98cfCD0) |
 
 `AggregatorProxy` acts as a gateway to access the latest aggregated values submitted by a set of trusted parties to `Aggregator` smart contract.
 `AggregatorProxy` in this project is connected to `Aggregator` that provides a price feed for [`BTC/USDT` pair](https://bisonai.github.io/orakl-config/adapter/btc-usdt.adapter.json).
