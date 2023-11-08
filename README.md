@@ -32,6 +32,11 @@ Currently, you can access the following data feeds from Orakl Network.
 | SHIB-USDT  | [0x528b...Af0F](https://klaytnfinder.io/account/0x528bb9cc2dCfDd98F712A60B54120fa4F63aAf0F) | [0xBb05...236E](https://klaytnfinder.io/account/0xBb05a3cbe50cF725be9302539bFA502F78D4236E) |
 | UNI-USDT   | [0x58B4...d6BC](https://klaytnfinder.io/account/0x58B40391BC5bF647EB8Aa2CEF426950fC644d6BC) | [0x40F0...3EAe](https://klaytnfinder.io/account/0x40F0Ef1d120526712cf3AF77CF14348b19b83EAe) |
 | XRP-USDT   | [0xe2e2...C8E4](https://klaytnfinder.io/account/0xe2e2D78eF5ec2158AFf05472C8C65fdB994AC8E4) | [0xc736...8d3D](https://klaytnfinder.io/account/0xc73665899A0b82f10D40Ea072C7A3a6F3a1c8d3D) |
+| JOY-USDT   | [0x2c29...793b](https://klaytnfinder.io/account/0x2c293dbe54eCfbE3104cf57C526A7d468ec6793b) | [0xd15a...4Aa2](https://klaytnfinder.io/account/0xd15aD2c20a9Ef664744FB0Ad11E5F78b09D44Aa2) |
+| WEMIX-USDT | [0xBD64...2420](https://klaytnfinder.io/account/0xBD647a9Bd234BBE8974084b10C34f4556bC32420) | [0xf678...4ade](https://klaytnfinder.io/account/0xf67882c83deb1b537CFbC4c9A797E8b536464ade) |
+| MBX-KRW    | [0xf208...3D2b](https://klaytnfinder.io/account/0xf2080d94C9d96Ddcc04A6A34D19f83192adD3D2b) | [0xCB1c...1014](https://klaytnfinder.io/account/0xCB1ce544Fdf03875CA1F269d6fEAA09488271014) |
+| KSP-KRW    | [0xdA0a...130a](https://klaytnfinder.io/account/0xdA0a769d8548FF387972a7Be3DC8eFD972f8130a) | [0x4f8E...9bb7](https://klaytnfinder.io/account/0x4f8E5adeB2914e62A196fefB8325337ED8a39bb7) |
+| BORA-KRW   | [0x11CA...01Df](https://klaytnfinder.io/account/0x11CAdfb6B61b7912fA835E5A51F96fbFf30A01Df) | [0xc4ED...9aB6](https://klaytnfinder.io/account/0xc4ED7b2A57789ff945ea21D18d77757052c29aB6) |
 
 ## Baobab
 
@@ -59,6 +64,11 @@ Currently, you can access the following data feeds from Orakl Network.
 | SHIB-USDT  | [0xA317...20a5](https://baobab.klaytnfinder.io/account/0xA317038414a275365ED4a085B786E83E761d20a5) | [0x51Ec...8AD1](https://baobab.klaytnfinder.io/account/0x51Ec645B728c6882D362677c90A6D51bb0998AD1) |
 | UNI-USDT   | [0x82aC...F66B](https://baobab.klaytnfinder.io/account/0x82aC2966dD5843e718D0EaeC7108bb4778eeF66B) | [0xa7A9...232d](https://baobab.klaytnfinder.io/account/0xa7A93c5eaabD1c458522F00a53897D5f32Da232d) |
 | XRP-USDT   | [0x92dD...f18c](https://baobab.klaytnfinder.io/account/0x92dD2d62513bC4811666C4EF27248E902e41f18c) | [0xDcb0...fCD0](https://baobab.klaytnfinder.io/account/0xDcb088788722198aaED3F4F7a396558eC98cfCD0) |
+| JOY-USDT   | [0x8365...7362](https://baobab.klaytnfinder.io/account/0x836518342A3226479Ec448E18e1cc15ff2517362) | [0x9b8B...7a19](https://baobab.klaytnfinder.io/account/0x9b8B4Ea7c3934E278430fa9F9b83466fE9387a19) |
+| WEMIX-USDT | [0x3855...6c4D](https://baobab.klaytnfinder.io/account/0x38555B4D36904538387334f1DC090825D0B36c4D) | [0x4035...1eFC](https://baobab.klaytnfinder.io/account/0x40353aCA7D7242C79f14443944114434E7581eFC) |
+| MBX-KRW    | [0x5266...45Dcd](https://baobab.klaytnfinder.io/account/0x5266b74a8063E08E603BfBFC1eDE4D71B8245Dcd) | [0x64ab...e90f](https://baobab.klaytnfinder.io/account/0x64abc78320d92c350532336D6Fc51AFEe8A8e90f) |
+| KSP-KRW    | [0x27e1...b99D](https://baobab.klaytnfinder.io/account/0x27e1255F2a0EA596992158A0bc838f43be34b99D) | [0x3e46...E215](https://baobab.klaytnfinder.io/account/0x3e4685BA1FD98D8eCBC3fc4beB8B4Abb04f7E215) |
+| BORA-KRW   | [0x171E...0459](https://baobab.klaytnfinder.io/account/0x171E1001F74568100fBA86b98856759d73730459) | [0x7693...b096](https://baobab.klaytnfinder.io/account/0x769385f036a2AD77EC28e2db91Ca2feE96a0b096) |
 
 `AggregatorProxy` acts as a gateway to access the latest aggregated values submitted by a set of trusted parties to `Aggregator` smart contract.
 `AggregatorProxy` in this project is connected to `Aggregator` that provides a price feed for [`BTC/USDT` pair](https://bisonai.github.io/orakl-config/adapter/btc-usdt.adapter.json).
