@@ -37,6 +37,11 @@ Currently, you can access the following data feeds from Orakl Network.
 | MBX-KRW    | [0xf208...3D2b](https://klaytnfinder.io/account/0xf2080d94C9d96Ddcc04A6A34D19f83192adD3D2b) | [0xCB1c...1014](https://klaytnfinder.io/account/0xCB1ce544Fdf03875CA1F269d6fEAA09488271014) |
 | KSP-KRW    | [0xdA0a...130a](https://klaytnfinder.io/account/0xdA0a769d8548FF387972a7Be3DC8eFD972f8130a) | [0x4f8E...9bb7](https://klaytnfinder.io/account/0x4f8E5adeB2914e62A196fefB8325337ED8a39bb7) |
 | BORA-KRW   | [0x11CA...01Df](https://klaytnfinder.io/account/0x11CAdfb6B61b7912fA835E5A51F96fbFf30A01Df) | [0xc4ED...9aB6](https://klaytnfinder.io/account/0xc4ED7b2A57789ff945ea21D18d77757052c29aB6) |
+| CHF-USD   | [0x7c5C...9766](https://klaytnfinder.io/account/0x7c5CcE6a52202103D124cf1b1AC105865Fcf9766) | [0x3F92...4E9E](https://klaytnfinder.io/account/0x3F92a8E460c89657FDcC4a3839C476413cE64E9E) |
+| EUR-USD   | [0x191E...ADfE](https://klaytnfinder.io/account/0x191EFEc4693437428c8C62d9d60E4c83ABFCADfE) | [0x5744...F287](https://klaytnfinder.io/account/0x5744A305042c2591a21cc7c378bf2Cab855eF287) |
+| GBP-USD   | [0xa91b...4E16](https://klaytnfinder.io/account/0xa91b8CeB2FbA32B7A845281a03d4C642bc7a4E16) | [0xc273...5Ed3](https://klaytnfinder.io/account/0xc2734F4c3Bf4E7c7673b86CB579013ea96295Ed3) |
+| JPY-USD   | [0xAC23...ce62](https://klaytnfinder.io/account/0xAC23dA5A831005E574046eF6F5d3B2d842cDce62) | [0x40Ff...d101](https://klaytnfinder.io/account/0x40Ffd98968403078664FD27D9CF9aA8Ca527d101) |
+| KRW-USD  | [0xc800...F1AE](https://klaytnfinder.io/account/0xc800eb1EAB9eB548Bf11eEfC010CDc08FCAaF1AE) | [0x369e...23C0](https://klaytnfinder.io/account/0x369eabfeFdF585D84A714E7989a361D623B523C0) |
 
 ## Baobab
 
@@ -69,6 +74,11 @@ Currently, you can access the following data feeds from Orakl Network.
 | MBX-KRW    | [0x5266...45Dcd](https://baobab.klaytnfinder.io/account/0x5266b74a8063E08E603BfBFC1eDE4D71B8245Dcd) | [0x64ab...e90f](https://baobab.klaytnfinder.io/account/0x64abc78320d92c350532336D6Fc51AFEe8A8e90f) |
 | KSP-KRW    | [0x27e1...b99D](https://baobab.klaytnfinder.io/account/0x27e1255F2a0EA596992158A0bc838f43be34b99D) | [0x3e46...E215](https://baobab.klaytnfinder.io/account/0x3e4685BA1FD98D8eCBC3fc4beB8B4Abb04f7E215) |
 | BORA-KRW   | [0x171E...0459](https://baobab.klaytnfinder.io/account/0x171E1001F74568100fBA86b98856759d73730459) | [0x7693...b096](https://baobab.klaytnfinder.io/account/0x769385f036a2AD77EC28e2db91Ca2feE96a0b096) |
+| CHF-USD   | [0x3De9...06cb](https://baobab.klaytnfinder.io/account/0x3De93EB2891656884E6029D69E905170Bfe906cb) | [0xc651...6A29](https://baobab.klaytnfinder.io/account/0xc651f188566AD651ed990b792457fe1FDDE06A29) |
+| EUR-USD   | [0x2EbB...74A8](https://baobab.klaytnfinder.io/account/0x2EbB9f5F0878b1A06Fb09B39565b74e39da474A8) | [0x086d...2063](https://baobab.klaytnfinder.io/account/0x086d60Ad6c00Ec96b3Aa3Ec42FB6F4eDA6D92063) |
+| GBP-USD   | [0x8Eb7...049C](https://baobab.klaytnfinder.io/account/0x8Eb732F35e7182CDF658C2992DFCA2E66B58049C) | [0x9836...3841](https://baobab.klaytnfinder.io/account/0x9836bf21567D87b663fd0E1DF38bf17aACE93841) |
+| JPY-USD   | [0x0a08...447F](https://baobab.klaytnfinder.io/account/0x0a08359bd058e6666bFf7aFA3409AbC144Fb447F) | [0x60b8...2026](https://baobab.klaytnfinder.io/account/0x60b84C725543Da01e168C085Ecd8389FB2a52026) |
+| KRW-USD  | [0x2Bdc...873E](https://baobab.klaytnfinder.io/account/0x2Bdc1c8754265174e82ce8b6581eb722F6ae873E) | [0xfb02...8d9b](https://baobab.klaytnfinder.io/account/0xfb02629eC37e10C553a147daD1d3aA6f86608d9b) |
 
 `AggregatorProxy` acts as a gateway to access the latest aggregated values submitted by a set of trusted parties to `Aggregator` smart contract.
 `AggregatorProxy` in this project is connected to `Aggregator` that provides a price feed for [`BTC/USDT` pair](https://bisonai.github.io/orakl-config/adapter/btc-usdt.adapter.json).

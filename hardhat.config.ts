@@ -80,6 +80,11 @@ const config: HardhatUserConfig = {
       // baobab: '0x64abc78320d92c350532336D6Fc51AFEe8A8e90f', // MBX-KRW
       // baobab: '0x3e4685BA1FD98D8eCBC3fc4beB8B4Abb04f7E215', // KSP-KRW
       // baobab: '0x769385f036a2AD77EC28e2db91Ca2feE96a0b096', // BORA-KRW
+      // baobab: '0xc651f188566AD651ed990b792457fe1FDDE06A29', // CHF-USD
+      // baobab: '0x086d60Ad6c00Ec96b3Aa3Ec42FB6F4eDA6D92063', // EUR-USD
+      // baobab: '0x9836bf21567D87b663fd0E1DF38bf17aACE93841', // GBP-USD
+      // baobab: '0x60b84C725543Da01e168C085Ecd8389FB2a52026', // JPY-USD
+      // baobab: '0xfb02629eC37e10C553a147daD1d3aA6f86608d9b', // KRW-USD
 
       // cypress: '0x7aa7bD1A2AD16527293200a4Fecc9548b2822A59', // BNB-USDT
       // cypress: '0xc0516486DD0837a8Dd6E502F9134Ff3c421377AC', // BTC-USDT
@@ -108,6 +113,11 @@ const config: HardhatUserConfig = {
       // cypress: '0xCB1ce544Fdf03875CA1F269d6fEAA09488271014', // MBX-KRW
       // cypress: '0x4f8E5adeB2914e62A196fefB8325337ED8a39bb7', // KSP-KRW
       // cypress: '0xc4ED7b2A57789ff945ea21D18d77757052c29aB6', // BORA-KRW
+      // cypress: '0x3F92a8E460c89657FDcC4a3839C476413cE64E9E', // CHF-USD
+      // cypress: '0x5744A305042c2591a21cc7c378bf2Cab855eF287', // EUR-USD
+      // cypress: '0xc2734F4c3Bf4E7c7673b86CB579013ea96295Ed3', // GBP-USD
+      // cypress: '0x40Ffd98968403078664FD27D9CF9aA8Ca527d101', // JPY-USD
+      // cypress: '0x369eabfeFdF585D84A714E7989a361D623B523C0', // KRW-USD
     }
   }
 }
