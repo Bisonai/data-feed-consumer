@@ -7,15 +7,17 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
-let commonConfig = { gas: 5_000_000, gasPrice: 250_000_000_000 }
+let commonConfig = {}
 if (process.env.PRIV_KEY) {
   commonConfig = {
-    ...commonConfig,
+    gas: 5_000_000,
+    gasPrice: 250_000_000_000,
     accounts: [process.env.PRIV_KEY]
   }
 } else {
   commonConfig = {
-    ...commonConfig,
+    gas: 5_000_000,
+    gasPrice: 250_000_000_000,
     accounts: {
       mnemonic: process.env.MNEMONIC || ''
     }

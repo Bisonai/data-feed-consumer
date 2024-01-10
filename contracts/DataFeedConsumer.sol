@@ -32,7 +32,7 @@ contract DataFeedConsumer {
         return dataFeed.decimals();
     }
 
-    function getLatestDataThroughRouter(string pair) public {
+    function getLatestDataThroughRouter(string calldata pair) public {
         (
             uint80 roundId_,
             int256 answer_ /* uint startedAt */ /* uint updatedAt */ /* uint80 answeredInRound */,
@@ -45,7 +45,7 @@ contract DataFeedConsumer {
         roundId = roundId_;
     }
 
-    function decimalsThroughRouter(string pair) public view returns (uint8) {
+    function decimalsThroughRouter(string calldata pair) public view returns (uint8) {
         return router.decimals(pair);
     }
 }
