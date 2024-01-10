@@ -3,10 +3,10 @@ import { ethers } from 'hardhat'
 const pair_name = 'BTC-USDT'
 
 async function main() {
-  const userContract = await ethers.getContract('DataFeedConsumer')
-  console.log('DataFeedConsumer', userContract.address)
+  const userContract = await ethers.getContract('DataFeedRouterConsumer')
+  console.log('DataFeedRouterConsumer', userContract.address)
 
-  await (await userContract.getLatestDataThroughRouter(pair_name)).wait()
+  await (await userContract.getLatestData(pair_name)).wait()
 
   const answer = await userContract.answer()
   const roundId = await userContract.roundId()

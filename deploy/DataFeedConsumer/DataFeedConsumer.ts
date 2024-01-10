@@ -4,11 +4,7 @@ import { DeployFunction } from 'hardhat-deploy/types'
 const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const { deployments, getNamedAccounts, network } = hre
   const { deploy } = deployments
-  const {
-    deployer,
-    aggregatorProxy: aggregatorProxyAddress,
-    aggregatorRouter: aggregatorRouterAddress
-  } = await getNamedAccounts()
+  const { deployer, aggregatorProxy: aggregatorProxyAddress } = await getNamedAccounts()
 
   console.log('0-DataFeedConsumer.ts')
 
@@ -18,7 +14,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   }
 
   await deploy('DataFeedConsumer', {
-    args: [aggregatorProxyAddress, aggregatorRouterAddress],
+    args: [aggregatorProxyAddress],
     from: deployer,
     log: true
   })

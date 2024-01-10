@@ -146,7 +146,13 @@ yarn compile
 ## Deploy
 
 ```shell
-npx hardhat deploy --network baobab
+# aggregator example
+npx hardhat deploy --network baobab --deploy-scripts deploy/DataFeedConsumer
+```
+
+```shell
+# router example
+npx hardhat deploy --network baobab --deploy-scripts deploy/DataFeedRouterConsumer
 ```
 
 ## Request the latest value from Data Feed
