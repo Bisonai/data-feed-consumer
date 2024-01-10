@@ -85,6 +85,11 @@ Currently, you can access the following data feeds from Orakl Network.
 
 If you want to access different data feeds, you can change the aggregator proxy address (`aggregatorProxy`) inside of `hardhat.config.ts` under `namedAccounts` property.
 
+## AggregatorRouter
+
+- Baobab: [0xAF821aaaEdeF65b3bC1668c0b910c5b763dF6354](https://baobab.klaytnfinder.io/account/0xAF821aaaEdeF65b3bC1668c0b910c5b763dF6354)
+- Cypress: [0x16937CFc59A8Cd126Dc70A75A4bd3b78f690C861](https://www.klaytnfinder.io/account/0x16937CFc59A8Cd126Dc70A75A4bd3b78f690C861)
+
 ## Prerequisites
 
 Create a copy of `.env.example` file and fill in values for `PROVIDER`, and `MNEMONIC` or `PRIV_KEY` (the difference is explained below) environment variables.
@@ -141,7 +146,13 @@ yarn compile
 ## Deploy
 
 ```shell
-npx hardhat deploy --network baobab
+# aggregator example
+npx hardhat deploy --network baobab --deploy-scripts deploy/DataFeedConsumer
+```
+
+```shell
+# router example
+npx hardhat deploy --network baobab --deploy-scripts deploy/DataFeedRouterConsumer
 ```
 
 ## Request the latest value from Data Feed
@@ -155,4 +166,12 @@ To deploy `DataFeedConsumer`, run `npx hardhat deploy --network baobab`.
 
 ```shell
 npx hardhat run scripts/read-data.ts --network baobab
+```
+
+## Request the latest value from Data Feed through RouterContract
+
+Pair name's fixed with "BTC-USDT", try out getting latest value of different pairs by changing pair name from the script.
+
+```shell
+npx hardhat run scripts/read-data-through-router.ts --network baobab
 ```
