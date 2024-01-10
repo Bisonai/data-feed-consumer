@@ -1,6 +1,6 @@
 import { ethers } from 'hardhat'
 
-const pair_name = "BTC-USDT"
+const pair_name = 'BTC-USDT'
 
 async function main() {
   const userContract = await ethers.getContract('DataFeedConsumer')
