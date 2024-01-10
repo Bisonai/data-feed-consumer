@@ -18,10 +18,10 @@ contract DataFeedConsumer {
     function getLatestData() public {
         (
             uint80 roundId_,
-            int256 answer_ /* uint startedAt */ /* uint updatedAt */ /* uint80 answeredInRound */,
-            ,
-            ,
-
+            int256 answer_
+            , /* uint startedAt */
+            , /* uint updatedAt */
+            , /* uint80 answeredInRound */
         ) = dataFeed.latestRoundData();
 
         answer = answer_;
@@ -35,10 +35,10 @@ contract DataFeedConsumer {
     function getLatestDataThroughRouter(string calldata pair) public {
         (
             uint80 roundId_,
-            int256 answer_ /* uint startedAt */ /* uint updatedAt */ /* uint80 answeredInRound */,
-            ,
-            ,
-
+            int256 answer_
+            , /* uint startedAt */
+            , /* uint updatedAt */
+            , /* uint80 answeredInRound */
         ) = router.latestRoundData(pair);
 
         answer = answer_;
