@@ -118,6 +118,10 @@ const config: HardhatUserConfig = {
       // cypress: '0xc2734F4c3Bf4E7c7673b86CB579013ea96295Ed3', // GBP-USD
       // cypress: '0x40Ffd98968403078664FD27D9CF9aA8Ca527d101', // JPY-USD
       // cypress: '0x369eabfeFdF585D84A714E7989a361D623B523C0', // KRW-USD
+    },
+    aggregatorRouter: {
+      baobab: '0xAF821aaaEdeF65b3bC1668c0b910c5b763dF6354'
+      //cypress: '0x16937CFc59A8Cd126Dc70A75A4bd3b78f690C861'
     }
   }
 }
