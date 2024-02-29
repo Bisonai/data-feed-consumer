@@ -57,7 +57,6 @@ const config: HardhatUserConfig = {
     aggregatorProxy: {
       // baobab: '0xFA4CfAD7DBB1a0b3e85d0b736cf00289edDDDd5F', // BNB-USDT
       baobab: '0x4b0687ce6eC3Fe6c019467c744D0C563643BdFa4' // BTC-USDT
-      // baobab: '0x6727E828CCa9b5cB639e740d5A275Cd7CdB0b647', // BUSD-USDT
       // baobab: '0xdE2aA055F8DA4d2a4A5063b8736C8455AEa8aB3F', // DAI-USDT
       // baobab: '0x7dc55064b6ea6B75F8A73DC142707aAd0A37541c', // DOT-USDT
       // baobab: '0xAEc43Fc8D4684b6A6577c3B18A1c1c6d3D55C28E', // ETH-USDT
@@ -90,7 +89,6 @@ const config: HardhatUserConfig = {
 
       // cypress: '0x7aa7bD1A2AD16527293200a4Fecc9548b2822A59', // BNB-USDT
       // cypress: '0xc0516486DD0837a8Dd6E502F9134Ff3c421377AC', // BTC-USDT
-      // cypress: '0x31e438B3d2b838a30A0c02460cd1E6B7a6ED5B60', // BUSD-USDT
       // cypress: '0xC12f7c66b3F192b074Ff883803bAb7571bd6a25D', // DAI-USDT
       // cypress: '0x90708e35E62dea8024dE3672Ca05a4626D5d5e9C', // DOT-USDT
       // cypress: '0x37C637922D6F5F62e067588A75E9d59c26cd64c3', // ETH-USDT

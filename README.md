@@ -20,7 +20,6 @@ Currently, you can access the following data feeds from Orakl Network.
 | DOT-USDT   | [0x3836...840A](https://klaytnfinder.io/account/0x38362F1a2d7c223a132018505A35a87A63f7840A) | [0x9070...5e9C](https://klaytnfinder.io/account/0x90708e35E62dea8024dE3672Ca05a4626D5d5e9C) |
 | BNB-USDT   | [0x47c6...B872](https://klaytnfinder.io/account/0x47c63Bca3Fa9D3eA7F9Bc7C48C14f691d50FB872) | [0x7aa7...2A59](https://klaytnfinder.io/account/0x7aa7bD1A2AD16527293200a4Fecc9548b2822A59) |
 | TRX-USDT   | [0x035A...0d86](https://klaytnfinder.io/account/0x035A27A2797106Dc68606cA054dA5429750F0d86) | [0x28A6...6b4B](https://klaytnfinder.io/account/0x28A69574604E01c86C116Fe4C6EdE28CDbe66b4B) |
-| BUSD-USDT  | [0x0655...CEe5](https://klaytnfinder.io/account/0x0655f5196Bd589632a1fd7f15d73382537ACCEe5) | [0x31e4...5B60](https://klaytnfinder.io/account/0x31e438B3d2b838a30A0c02460cd1E6B7a6ED5B60) |
 | MNR-KRW    | [0xfccB...3a98](https://klaytnfinder.io/account/0xfccB3925817e0dCFEE28343769Bbe203D8443a98) | [0x61be...B4C5](https://klaytnfinder.io/account/0x61be615807fC5306E1C691D290a422aF7995B4C5) |
 | ADA-USDT   | [0x2355...29Ab](https://klaytnfinder.io/account/0x235587EA94b2fe15FfFf0577303E5F0Cf13C29Ab) | [0x04a7...05C0](https://klaytnfinder.io/account/0x04a77b347d1e0FD6FA9af328aB0232F3F2Be05C0) |
 | ATOM-USDT  | [0x153A...c13F](https://klaytnfinder.io/account/0x153A604Ce0d3Fee619fb9A1F484d885001D1c13F) | [0x1eD8...d150](https://klaytnfinder.io/account/0x1eD814571AB8FA61F546dDb92125d22dc7dAd150) |
@@ -57,7 +56,6 @@ Currently, you can access the following data feeds from Orakl Network.
 | DOT-USDT   | [0x2b06...9d7b](https://baobab.klaytnfinder.io/account/0x2b062807C6B3F8Ca5C366545d50aA19c114E9d7b) | [0x7dc5...541c](https://baobab.klaytnfinder.io/account/0x7dc55064b6ea6B75F8A73DC142707aAd0A37541c) |
 | BNB-USDT   | [0x731A...4199](https://baobab.klaytnfinder.io/account/0x731A5AFB6e021579138Ea469B25C2ab46ff44199) | [0xFA4C...Dd5F](https://baobab.klaytnfinder.io/account/0xFA4CfAD7DBB1a0b3e85d0b736cf00289edDDDd5F) |
 | TRX-USDT   | [0xb4de...c60D](https://baobab.klaytnfinder.io/account/0xb4de9C81eaA329E1E7161E9a235D795E29eec60D) | [0x37c7...2d5f](https://baobab.klaytnfinder.io/account/0x37c7Aac954e721eaBA28c58BeF496529Cde32d5f) |
-| BUSD-USDT  | [0xc820...63ed](https://baobab.klaytnfinder.io/account/0xc820F6E9ab1A9321d22720A0986088A9298563ed) | [0x6727...b647](https://baobab.klaytnfinder.io/account/0x6727E828CCa9b5cB639e740d5A275Cd7CdB0b647) |
 | MNR-KRW    | [0x22dd...59c9](https://baobab.klaytnfinder.io/account/0x22ddDb9749cB5941DdEc5fD50B12CfDdB8E259c9) | [0x6DEb...2dee](https://baobab.klaytnfinder.io/account/0x6DEbE43FD00D3Dcc93D8695a3031fC8887242dee) |
 | ADA-USDT   | [0x70cD...C9b8](https://baobab.klaytnfinder.io/account/0x70cDE6bE67486017C52215Ad5d6740ce8EaBC9b8) | [0xB9C1...1568](https://baobab.klaytnfinder.io/account/0xB9C1839A40cED59Fb9e55Eb52a3B8B7E62aF1568) |
 | ATOM-USDT  | [0xD846...a0b0](https://baobab.klaytnfinder.io/account/0xD84659b5e6d7123e21ee80f13685D733a9a9a0b0) | [0x8867...8D8b](https://baobab.klaytnfinder.io/account/0x886703ebE4E18645B708b3fC9f528d2a9aed8D8b) |
