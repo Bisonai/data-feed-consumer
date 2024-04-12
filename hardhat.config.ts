@@ -56,8 +56,7 @@ const config: HardhatUserConfig = {
     },
     /*
     ### Contract Addresses
-    - Baobab: https://github.com/Bisonai/orakl/tree/master/contracts/v0.1/deployments/baobab
-    - Cypress: https://github.com/Bisonai/orakl/tree/master/contracts/v0.1/deployments/cypress
+    https://raw.githubusercontent.com/Bisonai/orakl/master/contracts/v0.1/deployments/datafeeds-addresses.json
     */
     aggregatorProxy: {
       baobab: '0x4b0687ce6eC3Fe6c019467c744D0C563643BdFa4' // BTC-USDT
