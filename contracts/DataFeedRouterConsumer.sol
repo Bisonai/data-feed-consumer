@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.16;
 
-import {IAggregatorRouter} from "@bisonai/orakl-contracts/src/v0.1/interfaces/IAggregatorRouter.sol";
+import {IFeedRouter} from "./interfaces/IFeedRouter.sol";
 
 contract DataFeedRouterConsumer {
-    IAggregatorRouter internal router;
+    IFeedRouter internal router;
     int256 public answer;
     uint80 public roundId;
 
     constructor(address aggregatorRouter) {
-        router = IAggregatorRouter(aggregatorRouter);
+        router = IFeedRouter(aggregatorRouter);
     }
 
 
@@ -17,9 +17,8 @@ contract DataFeedRouterConsumer {
         (
             uint80 roundId_,
             int256 answer_
-            , /* uint startedAt */
             , /* uint updatedAt */
-            , /* uint80 answeredInRound */
+
         ) = router.latestRoundData(pair);
 
         answer = answer_;

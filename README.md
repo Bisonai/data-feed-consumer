@@ -71,7 +71,7 @@ yarn compile
 ## Deploy
 
 ```shell
-# aggregator example
+# feed example
 npx hardhat deploy --network baobab --deploy-scripts deploy/DataFeedConsumer
 ```
 
