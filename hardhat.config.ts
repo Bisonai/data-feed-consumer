@@ -26,7 +26,7 @@ if (process.env.PRIV_KEY) {
 
 const config: HardhatUserConfig = {
   solidity: {
-    version: '0.8.16',
+    version: '0.8.20',
     settings: {
       optimizer: {
         enabled: true,
@@ -58,13 +58,11 @@ const config: HardhatUserConfig = {
     ### Contract Addresses
     https://raw.githubusercontent.com/Bisonai/orakl/master/contracts/v0.1/deployments/datafeeds-addresses.json
     */
-    aggregatorProxy: {
-      baobab: '0x4b0687ce6eC3Fe6c019467c744D0C563643BdFa4' // BTC-USDT
-      // cypress: '0xc0516486DD0837a8Dd6E502F9134Ff3c421377AC', // BTC-USDT
+    feedProxy: {
+      baobab: '0x23c95f4842ac01a6eca3381005c5749f575ea801' // BTC-USDT
     },
-    aggregatorRouter: {
-      baobab: '0xAF821aaaEdeF65b3bC1668c0b910c5b763dF6354'
-      //cypress: '0x16937CFc59A8Cd126Dc70A75A4bd3b78f690C861'
+    feedRouter: {
+      baobab: '0xd9dbbb92a6ecb8b8d3e386b8d0ad8284bd816ef1'
     }
   }
 }

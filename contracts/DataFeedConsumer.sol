@@ -1,32 +1,29 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.16;
+pragma solidity ^0.8.20;
 
-import {IAggregator} from "@bisonai/orakl-contracts/src/v0.1/interfaces/IAggregator.sol";
-
+import {IFeedProxy} from "@bisonai/orakl-contracts/v0.2/src/interfaces/IFeedProxy.sol";
 
 contract DataFeedConsumer {
-    IAggregator internal dataFeed;
+    IFeedProxy internal feedProxy;
     int256 public answer;
     uint80 public roundId;
 
-    constructor(address aggregatorProxy) {
-        dataFeed = IAggregator(aggregatorProxy);
+    constructor(address _feedProxy) {
+        feedProxy = IFeedProxy(_feedProxy);
     }
 
     function getLatestData() public {
         (
             uint80 roundId_,
             int256 answer_
-            , /* uint startedAt */
             , /* uint updatedAt */
-            , /* uint80 answeredInRound */
-        ) = dataFeed.latestRoundData();
+        ) = feedProxy.latestRoundData();
 
         answer = answer_;
         roundId = roundId_;
     }
 
     function decimals() public view returns (uint8) {
-        return dataFeed.decimals();
+        return feedProxy.decimals();
     }
 }
