@@ -5,6 +5,8 @@ on:
       - "contracts/**"
       - "deploy/**"
       - "scripts/**"
+      - ".github/workflows/misc.test.yaml"
+    workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
