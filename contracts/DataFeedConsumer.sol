@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
-//@bisonai/orakl-contracts/v0.1
+
 import {IFeedProxy} from "@bisonai/orakl-contracts/v0.2/src/interfaces/IFeedProxy.sol";
 
 contract DataFeedConsumer {
