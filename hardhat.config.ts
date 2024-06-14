@@ -62,7 +62,7 @@ const config: HardhatUserConfig = {
       baobab: '0x23c95f4842ac01a6eca3381005c5749f575ea801' // BTC-USDT
     },
     feedRouter: {
-      baobab: '0xAF821aaaEdeF65b3bC1668c0b910c5b763dF6354'
+      baobab: '0xd9dbbb92a6ecb8b8d3e386b8d0ad8284bd816ef1'
     }
   }
 }

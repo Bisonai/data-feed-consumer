@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.16;
+pragma solidity ^0.8.20;
 
-import {IFeedRouter} from "./interfaces/IFeedRouter.sol";
+import {IFeedRouter} from "@bisonai/orakl-contracts/v0.2/src/interfaces/IFeedRouter.sol";
 
 contract DataFeedRouterConsumer {
     IFeedRouter internal router;
