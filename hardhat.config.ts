@@ -46,7 +46,7 @@ const config: HardhatUserConfig = {
       ...commonConfig
     },
     cypress: {
-      url: process.env.PROVIDER || 'https://public-en-cypress.klaytn.net',
+      url: process.env.PROVIDER || 'https://public-en.node.kaia.io',
       ...commonConfig
     }
   },
