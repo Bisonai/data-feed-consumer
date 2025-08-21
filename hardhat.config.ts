@@ -40,12 +40,12 @@ const config: HardhatUserConfig = {
       gas: 1_400_000,
       gasPrice: 250_000_000_000
     },
-    baobab: {
+    kairos: {
       url: process.env.PROVIDER || 'https://public-en.kairos.node.kaia.io',
       chainId: 1001,
       ...commonConfig
     },
-    cypress: {
+    mainnet: {
       url: process.env.PROVIDER || 'https://public-en.node.kaia.io',
       ...commonConfig
     }
@@ -59,10 +59,10 @@ const config: HardhatUserConfig = {
     https://raw.githubusercontent.com/Bisonai/orakl/master/contracts/v0.1/deployments/datafeeds-addresses.json
     */
     feedProxy: {
-      baobab: '0x23c95f4842ac01a6eca3381005c5749f575ea801' // BTC-USDT
+      kairos: '0x23c95f4842ac01a6eca3381005c5749f575ea801' // BTC-USDT
     },
     feedRouter: {
-      baobab: '0xd9dbbb92a6ecb8b8d3e386b8d0ad8284bd816ef1'
+      kairos: '0xd9dbbb92a6ecb8b8d3e386b8d0ad8284bd816ef1'
     }
   }
 }

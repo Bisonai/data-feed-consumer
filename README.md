@@ -2,7 +2,7 @@
 
 Consumer smart contract that reads from [Orakl Network](https://www.orakl.network) Data Feed.
 
-> Warning: This repository and smart contract are meant to be for deployment on [`Baobab`](https://docs.klaytn.foundation/misc/faq#what-is-cypress-what-is-baobab).
+> Warning: This repository and smart contract are meant to be for deployment on Kairos.
 
 Currently, you can access the following data feeds from Orakl Network.
 
@@ -25,7 +25,7 @@ cp .env.example .env
 ```
 
 `PROVIDER` can be set to any JSON-RPC endpoint.
-The list of free available JSON-RPC endpoint can be found in [official Klaytn documentation](https://docs.klaytn.foundation/content/dapp/json-rpc/public-en#testnet-baobab-public-json-rpc-endpoints).
+The list of free available JSON-RPC endpoint can be found in [official Kaia documentation](https://docs.kaia.io/references/public-en/).
 
 This repository supports connection to wallet either through mnemonic or private key.
 
@@ -37,8 +37,8 @@ This repository supports connection to wallet either through mnemonic or private
 npx mnemonics
 ```
 
-After mnemonic is generated, you need to convert it to public address and fund it with KLAY.
-If you do not have any KLAY in your account, you cannot deploy smart contracts or make any transactions.
+After mnemonic is generated, you need to convert it to public address and fund it with $KAIA.
+If you do not have any $KAIA in your account, you cannot deploy smart contracts or make any transactions.
 
 You can convert your newly generated mnemonic with following hardhat task.
 Please replace the `[MENONIC]` with your mnemonic.
@@ -48,7 +48,7 @@ npx hardhat address --mnemonic [MNEMONIC]
 ```
 
 The script will print out a public address corresponding to your mnemonic.
-Then, you can use this address to receive free KLAY using [Baobab's faucet](https://baobab.wallet.klaytn.foundation/faucet).
+Then, you can use this address to receive free $KAIA using [Kairos faucet](https://www.kaia.io/faucet).
 
 ### Private key
 
@@ -72,25 +72,25 @@ yarn compile
 
 ```shell
 # feed example
-npx hardhat deploy --network baobab --deploy-scripts deploy/DataFeedConsumer
+npx hardhat deploy --network kairos --deploy-scripts deploy/DataFeedConsumer
 ```
 
 ```shell
 # router example
-npx hardhat deploy --network baobab --deploy-scripts deploy/DataFeedRouterConsumer
+npx hardhat deploy --network kairos --deploy-scripts deploy/DataFeedRouterConsumer
 ```
 
 ## Request the latest value from Data Feed
 
 Before running the script below, one must deploy `DataFeedConsumer` smart contract.
 This step has to be performed only once.
-To deploy `DataFeedConsumer`, run `npx hardhat deploy --network baobab`.
+To deploy `DataFeedConsumer`, run `npx hardhat deploy --network kairos`.
 
 > Reading information from feed is free of charge for public data feeds.
 > You pay only for deployment of smart contract and execution of its functions.
 
 ```shell
-npx hardhat run scripts/read-data.ts --network baobab
+npx hardhat run scripts/read-data.ts --network kairo
 ```
 
 ## Request the latest value from Data Feed through RouterContract
@@ -98,5 +98,5 @@ npx hardhat run scripts/read-data.ts --network baobab
 Pair name's fixed with "BTC-USDT", try out getting latest value of different pairs by changing pair name from the script.
 
 ```shell
-npx hardhat run scripts/read-data-through-router.ts --network baobab
+npx hardhat run scripts/read-data-through-router.ts --network kairos
 ```
