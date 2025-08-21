@@ -8,7 +8,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 
   console.log('0-DataFeedConsumer.ts')
 
-  if (network.name != 'baobab') {
+  if (network.name != 'kairos') {
     console.log('Skipping')
     return
   }
